@@ -59,7 +59,7 @@ namespace OdeToFood
             app.Use(SayHelloMiddleware);
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseNodeModules();
+            //app.UseNodeModules();
 
             // aspnetcore30
             app.UseRouting();            
